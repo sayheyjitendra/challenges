@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+body{
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    background: url(images/pattern-background-desktop.svg),  hsl(225, 100%, 94%);
+    height: 100vh;
+    max-width: 100%;
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background: white;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.hero-img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  
+}
+
+.card-text h2{
+    padding-top: 30px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.card-text p{
+    margin: 15px 30px 30px 30px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plans{
+    background: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 10px 40px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+    height: 100px;
+}
+
+.left-area{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 12px;
+}
+
+.text-area{
+    padding-left: 15px;
+}
+
+.text-area h4{
+    color: hsl(223, 47%, 23%);
+}
+
+.text-area p{
+    color: hsl(224, 23%, 55%);
+}
+
+.right-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.right-area p{
+    margin-left: -10px;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+
+.btn{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    padding: 10px 90px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+
+.cta p{
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
