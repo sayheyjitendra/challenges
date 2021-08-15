@@ -140,6 +140,14 @@ body{
 
     .card{
         width: 90%;
-        height: 90%;
+        height: 80%;
+    }
+
+    .plans{
+       margin: 10px 20px;
+    }
+
+    .btn{
+        padding: 10px 70px;
     }
 }
