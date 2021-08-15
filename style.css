@@ -162,8 +162,9 @@ body{
     }
 
     .btn{
-        padding: 18px 72px;
+        padding: 18px 65px;
         margin-top: 10px;
         font-size: 17px;
+        border-radius: 10px;
     }
 }
