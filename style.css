@@ -134,5 +134,12 @@ body{
 
     .container{
         height: 100vh;
+        background: url(images/pattern-background-mobile.svg),  hsl(225, 100%, 94%);
+        background-repeat: repeat-x;
+    }
+
+    .card{
+        width: 90%;
+        height: 90%;
     }
 }
