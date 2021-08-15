@@ -10,10 +10,6 @@
     text-align: center;
 }
 
-.flex{
-    display: flex;
-}
-
 body{
     font-family: "Red Hat Display", sans-serif;
     font-size: 16px;
@@ -98,6 +94,11 @@ body{
     color: hsl(245, 75%, 52%);
 }
 
+.right-area p:hover{
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
 .btn{
     background-color: hsl(245, 75%, 52%);
     color: white;
@@ -106,6 +107,7 @@ body{
     border-radius: 5px;
     border: none;
     margin-top: 20px;
+    box-shadow: 20px 20px 10px hsl(225, 100%, 98%); 
 }
 
 .cta p{
@@ -115,3 +117,13 @@ body{
     margin-top: 20px;
 }
 
+.btn:hover{
+    opacity: .7;
+    
+    cursor: pointer;
+}
+
+.cta p:hover{
+    cursor: pointer;
+    color: hsl(245, 75%, 52%);
+}
