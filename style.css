@@ -148,6 +148,7 @@ body{
     }
 
     .btn{
-        padding: 10px 70px;
+        padding: 15px 70px;
+        margin-top: 10px;
     }
 }
