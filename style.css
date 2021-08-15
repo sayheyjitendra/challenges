@@ -127,3 +127,12 @@ body{
     cursor: pointer;
     color: hsl(245, 75%, 52%);
 }
+
+/* Media Queries*/
+
+@media only screen and (max-width: 768px){
+
+    .container{
+        height: 100vh;
+    }
+}
