@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* Utility Class for positioning center p, headings. */
+
 .text-center{
     text-align: center;
 }
@@ -14,6 +16,7 @@ body{
     font-family: "Red Hat Display", sans-serif;
     font-size: 16px;
 }
+
 
 .container{
     background: url(images/pattern-background-desktop.svg),  hsl(225, 100%, 94%);
@@ -117,16 +120,18 @@ body{
     margin-top: 20px;
 }
 
+.cta p:hover{
+    cursor: pointer;
+    color: hsl(245, 75%, 52%);
+}
+
 .btn:hover{
     opacity: .7;
     
     cursor: pointer;
 }
 
-.cta p:hover{
-    cursor: pointer;
-    color: hsl(245, 75%, 52%);
-}
+
 
 /* Media Queries*/
 
@@ -147,12 +152,18 @@ body{
        margin: 10px 20px;
     }
 
-    .btn{
-        padding: 15px 70px;
-        margin-top: 10px;
-    }
 
     .text-area h4{
        font-size: 15px;
+    }
+
+    .right-area p{
+        margin-left: -30px;
+    }
+
+    .btn{
+        padding: 18px 72px;
+        margin-top: 10px;
+        font-size: 17px;
     }
 }
